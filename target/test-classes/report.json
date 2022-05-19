@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Facebook login Credentials testing",
+        "description": "",
+        "id": "facebook-functionality-testing;facebook-login-credentials-testing;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2039370,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the facebook login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 578140,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter the \"deepak\"and \"dee@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deepak\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"dee@123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124620,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "password and user should click the login button",
+            "match": {
+              "location": "StepDefinition.password_and_user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102140,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should verify the success message",
+            "match": {
+              "location": "StepDefinition.user_should_verify_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook functionality testing",
+    "description": "",
+    "id": "facebook-functionality-testing",
+    "keyword": "Feature",
+    "uri": "C:/Users/AravinD/eclipse-workspace/CucumberBase/src/test/resources/FeaturesFile/fblogin.feature",
+    "tags": []
+  }
+]
